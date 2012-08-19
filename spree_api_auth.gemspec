@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_api_auth'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = "Spree's Authenticattion API"
   s.description = "Spree's Authenticattion API"
   s.required_ruby_version = '>= 1.8.7'
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email     = 'camelmasa@gmail.com'
   s.homepage  = "https://github.com/camelmasa/#{s.name}"
 
-  #s.files       = `git ls-files`.split("\n")
+  s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
