@@ -1,21 +1,20 @@
-SpreeApiAuth
+Spree Api Auth
 ============
 
-Introduction goes here.
+Spree's Rest API add authentication API.
 
+    $ /api/users/sign_up.json
+    $ /api/users/sign_in.json
 
 Example
 =======
 
-Example goes here.
+    $ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d ' {"user":{"email":"camelmasa@gmail.com", "password":"camelmasa", "password_confirmation":"camelmasa"}}' http://localhost:3000/api/users/sign_up.json
+    $ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d ' {"user":{"email":"camelmasa@gmail.com", "password":"camelmasa"}}' http://localhost:3000/api/users/sign_in.json
 
 Testing
 -------
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
-
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
+Coding now.
 
 Copyright (c) 2012 [name of extension creator], released under the New BSD License
