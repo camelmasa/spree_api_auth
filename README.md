@@ -17,4 +17,4 @@ Testing
 
 Coding now.
 
-Copyright (c) 2012 [name of extension creator], released under the New BSD License
+Copyright (c) 2012 Masahiro Saito, released under the New BSD License
