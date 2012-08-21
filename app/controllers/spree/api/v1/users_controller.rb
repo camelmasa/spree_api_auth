@@ -19,6 +19,7 @@ module Spree
             unauthorized
             return 
           end
+          @user.generate_api_key! if @user.api_key.blank?
         end
 
       end
