@@ -1,2 +1,2 @@
 object @user
-attributes :id, :api_key, :email
+attributes :id, :spree_api_key, :email

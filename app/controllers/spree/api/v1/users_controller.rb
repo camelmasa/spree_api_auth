@@ -10,7 +10,7 @@ module Spree
             unauthorized 
             return 
           end
-          @user.generate_api_key!
+          @user.generate_spree_api_key!
         end
 
         def sign_in
@@ -19,7 +19,7 @@ module Spree
             unauthorized
             return 
           end
-          @user.generate_api_key! if @user.api_key.blank?
+          @user.generate_spree_api_key! if @user.spree_api_key.blank?
         end
 
       end
