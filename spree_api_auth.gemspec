@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage  = "https://github.com/camelmasa/#{s.name}"
 
   s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.test_files  = `git ls-files -- {spec}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
